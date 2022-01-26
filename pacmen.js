@@ -26,7 +26,7 @@ function makePac() {
   newimg.style.left = position.x;
   newimg.style.top = position.y;
   game.appendChild(newimg);
-  // new style of creating an object
+  
   return {
     position,
     velocity,
